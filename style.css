@@ -1,0 +1,39 @@
+/* Nền và chữ chung cả trang */
+body {
+    background-color: black;
+    color:#e2e8f0;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.5;
+    padding: 20px;    
+}
+
+/* Tiêu đề chính */
+h1 {
+    color:aquamarine;
+    text-align: center;
+    padding: 100px;
+}
+
+/* Ảnh đại diện */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+}
+
+/* Danh sách mục tiêu */
+ul {
+    background-color: #1e293b;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 1px solid #334155;
+}
+
+/* Link đổi màu khi rê chuột */
+a {
+    color: #4e38f8;
+}
+a:hover {
+    color:#f83838;
+}
