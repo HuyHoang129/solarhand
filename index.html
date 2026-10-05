@@ -1,28 +1,33 @@
-<DOCTYPE html>
-    <html lang = "Vi">
-        <head>
-            <meta charset="UFT-8">
-            <title>GIỚI THIỆU DỰ ÁN</title>
-            <link rel="stylesheet" href="style.css">
-        </head>
-    <body>
-        <h1>SolarHand – Hologram Hệ Mặt Trời điều khiển bằng cử chỉ tay 🚀</h1>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>SolarHand - Tuần 1</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            min-height: 100vh; display: flex; flex-direction: column;
+            justify-content: center; align-items: center; gap: 14px;
+            background-color: #0f172a; color: #e2e8f0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        h1 { color: #f472b6; margin-bottom: 4px; }
+        p { color: #85d1f0; margin-bottom: 20px; }
+        a {
+            color: #38bdf8; text-decoration: none; font-size: 18px;
+            padding: 12px 24px; border: 1px solid #334155; border-radius: 10px;
+            width: 300px; text-align: center; transition: 0.3s;
+        }
+        a:hover { background-color: #334155; color: #fde047; transform: translateY(-2px); }
+    </style>
+</head>
+<body>
+    <h1>🚀 SolarHand — Tuần 1</h1>
+    <p>Lộ trình 8 tuần xây hologram điều khiển bằng tay</p>
 
-        <img src="anh.jpg" alt="Ảnh đại diện" width="200">
-
-        <h2>Mục tiêu dự án</h2>
-        <p>SolarHand là ứng dụng web cho phép khám phá Hệ Mặt Trời dạng "hologram"</p> 
-        <p>gồm các hạt phát sáng ngay trên trình duyệt.</p>  
-        <p>Điểm đặc biệt: người dùng không cần chuột hay bàn phím,</p>  
-        <p>mà điều khiển mô hình 3D trực tiếp bằng cử chỉ tay qua webcam - nắm tay để xoay, chụm hai ngón để kéo, dùng hai tay để phóng to/thu nhỏ.</p>
-        
-        <ul>
-            <li>Vận dụng Three.js để dựng cảnh 3D (scene, camera, ánh sáng, particle).</li>
-            <li>Tích hợp MediaPipe Hands để theo dõi 21 điểm khớp bàn tay thời gian thực.</li>
-            <li>Thiết kế bản đồ cử chỉ (gesture mapping) và làm mượt chuyển động bằng lerp.</li>
-            <li>Hoàn thành sản phẩm demo chạy trực tuyến + video demo dùng làm portfolio.</li>
-        </ul>
-        <h3>Kênh kết nối</h3>
-        <a href="https://www.facebook.com/nguyen.huy.hoang.956595">Facebook</a>
-    </body>
-    </html>
+    <a href="layout_2.html">🏠 Layout + Navbar (Ngày 3)</a>
+    <a href="baitap-js.html">🧪 Bài tập JavaScript (Ngày 4–5)</a>
+    <a href="dongho.html">⏱ Đồng hồ Mini-project (Ngày 6)</a>
+</body>
+</html>
